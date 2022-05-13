@@ -2,12 +2,15 @@
 ''' YouTube and Instagram Scrapper by Rishu
     Only Public insta Id get Scrapped '''
 
+import pyfiglet
 import instaloader
 from pytube import YouTube
 
 
 def start():   #Function that run at the beginning
-
+    
+    result = pyfiglet.figlet_format("Scrapper by Rishu", font="5lineoblique")
+    print(result)
     print('''
     1. YouTube Scrapping 
     2. Instagram Scrapping
